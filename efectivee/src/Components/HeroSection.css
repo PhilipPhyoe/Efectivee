@@ -1,0 +1,37 @@
+.Hero-container {
+    background-image: linear-gradient(to right, #00adee, #003d77);
+    width: 100%;
+    margin-top: 0;
+    height: 70vh;
+    color: white;
+}
+.Hero-buttons {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    justify-content: center;
+
+}
+
+.Hero-container h1 {
+    padding-top: 1.5rem;
+}
+.fa-envelope {
+    padding-left: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+    .Hero-container h1 {
+        font-size: 2rem;
+    }
+    .Hero-container h2 {
+        font-size: 1.5rem;
+    }
+    .Hero-container p {
+        font-size: 0.8rem;
+    }
+    .Hero-buttons {
+        padding: 0.2rem;
+        font-size: 0.2rem;
+    }
+}
